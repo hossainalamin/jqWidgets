@@ -21,4 +21,5 @@
     <script type="text/javascript" src="jqwidgets/jqxlistbox.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxbuttons.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxvalidator.js"></script>
 </head>
