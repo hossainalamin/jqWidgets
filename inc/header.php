@@ -17,4 +17,8 @@
     <script type="text/javascript" src="jqwidgets/jqxformattedinput.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxinput.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxpasswordinput.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxcombobox.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxscrollbar.js"></script>
 </head>

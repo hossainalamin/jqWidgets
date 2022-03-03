@@ -6,7 +6,6 @@ $(document).ready(function() {
         minLength: 1
 
     });
-
     $('.formattedInput').jqxFormattedInput({
         width: 250,
         height: 25,
@@ -25,4 +24,5 @@ $(document).ready(function() {
         yearCutoff: 2000,
         formatString: 'MM/dd/yyyy',
     })
+
 })

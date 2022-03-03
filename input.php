@@ -1,9 +1,10 @@
 <?php
 include 'inc/header.php';
 ?>
+<script src="js/main.js"></script>
 <body style ="margin-left : 500px;">
     <h4>Input</h4>
-    <input type="text" id="jqxinput"/>
+    <input type="text" id="jqxinput">
     <h4>Date time input</h4>
     <div id="DateTimeInput">
     </div>
@@ -15,7 +16,5 @@ include 'inc/header.php';
         <div></div>
     <div></div>
     </div>
-<script src="js/main.js">
-</script>
 </body>
 </html>
