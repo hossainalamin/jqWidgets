@@ -33,4 +33,6 @@
     <script type="text/javascript" src="jqwidgets/jqxnavbar.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxexpander.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxfileupload.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxmenu.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxdatatable.js"></script>
 </head>

@@ -1,7 +1,6 @@
 <?php
 include 'inc/header.php';
 ?>
-
 <body style ="margin-top : 50px;">
     <div id="navBar">
         <ul>
