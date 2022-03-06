@@ -1,33 +1,4 @@
-﻿:root {
-    --jqx-primary-rgb: 0, 92, 153;
-    --jqx-primary: rgb(var(--jqx-primary-rgb));
-    --jqx-primary-color: #fff;
-    --jqx-background: #fff;
-    --jqx-background-color: rgba(0, 0, 0, .88);
-    --jqx-background-hover-rgb: 225, 225, 225;
-    --jqx-background-hover: rgb(var(--jqx-background-hover-rgb));
-    --jqx-background-color-hover: rgba(0, 0, 0, .54);
-    --jqx-surface-rgb: 255, 255, 255;
-    --jqx-surface: rgb(var(--jqx-surface-rgb));
-    --jqx-surface-color: rgba(0, 0, 0, .88);
-    --jqx-border: #E0E0E0;
-    --jqx-scrollbar-background: #f5f5f5;
-    --jqx-scrollbar-border: #ddd;
-    --jqx-scrollbar-thumb-background: #C1C1C1;
-    --jqx-scrollbar-thumb-border: #b3b3b3;
-    --jqx-scrollbar-thumb-background-hover: #e6e6e6;
-    --jqx-scrollbar-thumb-border-hover: #b3b3b3;
-    --jqx-scrollbar-thumb-background-pressed: #d9d9d9;
-    --jqx-scrollbar-thumb-border-pressed: #b3b3b3;
-    --jqx-scrollbar-button-color-hover: #333;
-    --jqx-scrollbar-button-background-hover: #f5f5f5;
-    --jqx-scrollbar-button-border-hover: #f5f5f5;
-    --jqx-scrollbar-button-color-pressed: #333;
-    --jqx-scrollbar-button-background-pressed: #f5f5f5;
-    --jqx-scrollbar-button-border-pressed: #f5f5f5;
-}
-
-.jqx-icon-search-light,
+﻿.jqx-icon-search-light,
 .jqx-icon-close-light {
     background-image: none;
     font-family: jqx-icons;
@@ -39,8 +10,6 @@
 
 .jqx-icon-search-light:after {
     content: var(--jqx-icon-search);
-    color:
-
 }
 
 .jqx-calendar-light {
@@ -73,52 +42,72 @@
     font-style: normal;
 }
 
+
 /*Rounded Corners*/
+
+
 /*top-left rounded Corners*/
+
 .jqx-rc-tl-light {
     border-top-left-radius: var(--jqx-border-radius);
 }
 
+
 /*top-right rounded Corners*/
+
 .jqx-rc-tr-light {
     border-top-right-radius: var(--jqx-border-radius);
 }
 
+
 /*bottom-left rounded Corners*/
+
 .jqx-rc-bl-light {
     border-bottom-left-radius: var(--jqx-border-radius);
 }
 
+
 /*bottom-right rounded Corners*/
+
 .jqx-rc-br-light {
     border-bottom-right-radius: var(--jqx-border-radius);
 }
 
+
 /*top rounded Corners*/
+
 .jqx-rc-t-light {
     border-top-left-radius: var(--jqx-border-radius);
     border-top-right-radius: var(--jqx-border-radius);
 }
 
+
 /*bottom rounded Corners*/
+
 .jqx-rc-b-light {
     border-bottom-left-radius: var(--jqx-border-radius);
     border-bottom-right-radius: var(--jqx-border-radius);
 }
 
+
 /*right rounded Corners*/
+
 .jqx-rc-r-light {
     border-top-right-radius: var(--jqx-border-radius);
     border-bottom-right-radius: var(--jqx-border-radius);
 }
 
+
 /*left rounded Corners*/
+
 .jqx-rc-l-light {
     border-top-left-radius: var(--jqx-border-radius);
     border-bottom-left-radius: var(--jqx-border-radius);
 }
 
+
 /*all rounded Corners*/
+
 .jqx-rc-all-light {
     border-radius: var(--jqx-border-radius);
 }
@@ -176,7 +165,6 @@
 .jqx-calendar tr {
     border-bottom-color: var(--jqx-border);
 }
-
 
 .jqx-widget-light input::selection,
 input.jqx-input-widget-light::selection,
@@ -283,7 +271,6 @@ jqx-button-light input {
     color: var(--jqx-primary-color) !important;
     border-radius: 0px;
 }
-
 
 .jqx-slider-button-light {
     padding: 3px;
@@ -429,7 +416,6 @@ jqx-button-light input {
     transition: background-color 100ms linear;
 }
 
-
 .jqx-primary-light.jqx-input-label-light {
     color: var(--jqx-primary) !important;
 }
@@ -513,7 +499,6 @@ jqx-button-light input {
     border-color: #5bc0de;
     background: #5bc0de;
 }
-
 
 .jqx-primary-light {
     color: var(--jqx-primary) !important;
@@ -617,7 +602,6 @@ jqx-button-light input {
     border-color: #cccccc !important;
 }
 
-
 .jqx-danger-light {
     text-shadow: none !important;
     color: #d9534f !important;
@@ -689,7 +673,6 @@ jqx-button-light input {
     background: #f0ad4e !important;
     border-color: #f0ad4e !important;
 }
-
 
 .jqx-info-light {
     text-shadow: none !important;
@@ -851,7 +834,6 @@ jqx-button-light input {
     font-size: 14px;
     padding: 6px 10px;
     border-radius: 4px;
-
     position: relative;
 }
 
@@ -980,7 +962,6 @@ jqx-button-light input {
     background: var(--jqx-scrollbar-button-background-hover);
     border-color: var(--jqx-scrollbar-button-border-hover);
 }
-
 
 .jqx-scrollbar-button-state-pressed-light {
     color: var(--jqx-scrollbar-button-color-pressed);
@@ -1157,7 +1138,6 @@ jqx-grid-column-filterbutton-light,
     border-color: var(--jqx-primary);
 }
 
-
 .jqx-slider-slider-light {
     transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease;
 }
@@ -1169,7 +1149,6 @@ jqx-grid-column-filterbutton-light,
 
 .jqx-slider-light[discrete] .jqx-slider-slider-light:active {
     transform: scaleX(0);
-
 }
 
 .jqx-slider-slider-horizontal-light {
@@ -1204,7 +1183,6 @@ jqx-grid-column-filterbutton-light,
     transition: transform 0.2s ease;
     transform: scale(1) rotate(45deg);
 }
-
 
 .jqx-slider-tooltip-light .jqx-tooltip-arrow-t-b,
 .jqx-slider-tooltip-light .jqx-tooltip-arrow-l-r {
@@ -1320,7 +1298,6 @@ jqx-grid-column-filterbutton-light,
     text-transform: uppercase;
     padding-top: 6px;
     padding-bottom: 6px;
-
 }
 
 .jqx-scheduler-edit-dialog-field-light {
@@ -1353,7 +1330,9 @@ jqx-grid-column-filterbutton-light,
     padding: 8px;
 }
 
+
 /*applied to a list item when the item is selected.*/
+
 .jqx-listitem-state-hover-light,
 .jqx-menu-item-hover-light,
 .jqx-tree-item-hover-light,
@@ -1670,7 +1649,6 @@ jqx-grid-column-filterbutton-light,
     font-weight: 500;
 }
 
-
 .jqx-widget-light .jqx-widget-header-light:hover .jqx-grid-column-header-light {
     border-right-color: var(--jqx-border) !important;
     border-bottom-color: var(--jqx-border) !important;
@@ -1749,7 +1727,6 @@ jqx-grid-column-filterbutton-light,
 .jqx-datetimeinput-content-light {
     border-color: transparent;
 }
-
 
 .jqx-combobox-content-focus-light,
 .jqx-combobox-state-focus-light,
@@ -1883,7 +1860,6 @@ input[type="textarea"].jqx-widget-content-light {
     height: 100%;
 }
 
-
 .jqx-input-label {
     visibility: inherit;
 }
@@ -1914,7 +1890,6 @@ textarea:focus~.jqx-input-label-light,
 .jqx-dropdownlist-light[default-placeholder="true"] .jqx-input-label {
     visibility: hidden;
 }
-
 
 input:focus~.jqx-input-bar:before,
 textarea:focus~.jqx-input-bar:before,
@@ -1986,7 +1961,6 @@ textarea:focus~.jqx-input-bar:before,
     background: var(--jqx-primary-color);
     border-color: var(--jqx-primary-color);
 }
-
 
 .jqx-dropdownlist-state-normal-light .jqx-icon-arrow-down-light,
 .jqx-combobox-state-normal-light .jqx-icon-arrow-down-light,
@@ -2260,7 +2234,6 @@ textarea.jqx-input-light:-ms-input-placeholder {
     top: 0;
 }
 
-
 .jqx-layout-light {
     background-color: var(--jqx-background);
 }
@@ -2421,7 +2394,9 @@ textarea.jqx-input-light:-ms-input-placeholder {
     content: var(--jqx-icon-last-page);
 }
 
+
 /* Ripple effect */
+
 .ripple {
     position: relative;
     transform: translate3d(0, 0, 0);
@@ -2498,8 +2473,12 @@ textarea.jqx-input-light:-ms-input-placeholder {
     transform: scale(2);
 }
 
+
 /* Ripple effect */
+
+
 /* Ripple effect */
+
 .buttonRipple {
     background-position: center;
     transition: background 0.8s;
@@ -2577,7 +2556,6 @@ textarea.jqx-input-light:-ms-input-placeholder {
     background-image: url('images/icon-menu-minimized-white.png');
 }
 
-
 .jqx-editor-toolbar-icon-light {
     background: url('images/html_editor.png') no-repeat;
 }
@@ -2599,7 +2577,9 @@ textarea.jqx-input-light:-ms-input-placeholder {
     background: var(--jqx-background);
 }
 
+
 /*applied to the timepicker*/
+
 .jqx-needle-central-circle-light {
     fill: var(--jqx-primary);
 }
@@ -2630,7 +2610,6 @@ textarea.jqx-input-light:-ms-input-placeholder {
 .jqx-validator-hint-light img {
     display: none;
 }
-
 
 .jqx-grid-group-expand-light:after,
 .jqx-grid-group-collapse-light:after {

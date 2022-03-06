@@ -22,4 +22,15 @@
     <script type="text/javascript" src="jqwidgets/jqxbuttons.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxscrollbar.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxvalidator.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxform.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxpanel.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="jqwidgets/styles/jqx.light.css"></script>
+    <script type="text/javascript" src="jqwidgets/jqxdragdrop.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxtooltip.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxradiobutton.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxnavbar.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxexpander.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxfileupload.js"></script>
 </head>
