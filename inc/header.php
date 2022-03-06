@@ -25,7 +25,6 @@
     <script type="text/javascript" src="jqwidgets/jqxform.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxpanel.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxdropdownlist.js"></script>
-    <script type="text/javascript" src="jqwidgets/styles/jqx.light.css"></script>
     <script type="text/javascript" src="jqwidgets/jqxdragdrop.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxtooltip.js"></script>
     <script type="text/javascript" src="jqwidgets/jqxbuttons.js"></script>
@@ -43,4 +42,8 @@
     <script type="text/javascript" src="jqwidgets/jqxgrid.sort.js"></script> 
     <script type="text/javascript" src="jqwidgets/jqxgrid.pager.js"></script> 
     <script type="text/javascript" src="jqwidgets/jqxgrid.grouping.js"></script> 
+    <script type="text/javascript" src="jqwidgets/jqxgrid.pager.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxgrid.selection.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxlistbox.js"></script>
+    <script type="text/javascript" src="jqwidgets/jqxscrollbar.js"></script>
 </head>

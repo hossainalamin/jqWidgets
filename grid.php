@@ -1,9 +1,10 @@
 <?php
 include 'inc/header.php';
 ?>
-<body style ="margin-top : 50px;">
-    <div id="jqxGrid">
-
+<body class="default">
+    <div id='jqxWidget' style="font-size: 13px; font-family: Verdana; float: left;">
+        <div id="jqxgrid">
+        </div>
     </div>
 <script>
     $(document).ready(function(){
@@ -37,13 +38,26 @@ include 'inc/header.php';
             localdata : data,
             datatype : "array"
         }
-        var dataAdapter = new $.jqx.dataAdapter(source, {
-            loadComplete: function (data) { },
-            loadError: function (xhr, status, error) { }      
-        });
-        $("#jqxGrid").jqxGrid(
+        var pagerrenderer = function () {
+                var element = $("<div style='margin-top: 5px; width: 100%; height: 100%;'></div>")
+                var paginginfo = $("#jqxgrid").jqxGrid('getpaginginformation');
+                for (i = 0; i < paginginfo.pagescount; i++) {
+                    var anchor = $("<a style='padding: 5px;' href='#" + i + "'>" + i + "</a>");
+                    anchor.appendTo(element);
+                    anchor.click(function (event) {
+                    var pagenum = parseInt($(event.target).text());
+                        $("#jqxgrid").jqxGrid('gotopage', pagenum);
+                    });
+                }
+                return element;
+        }
+        $("#jqxgrid").jqxGrid(
             {
-                source: dataAdapter,
+                width:670,
+                source: source,
+                pageable: true,
+                autoheight: true,
+                pagerrenderer: pagerrenderer,
                 columns: [
                   { text: 'First Name', datafield: 'firstName', width: 100 },
                   { text: 'Last Name', datafield: 'lastName', width: 100 },

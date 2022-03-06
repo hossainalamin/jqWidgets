@@ -1,4 +1,33 @@
-﻿.jqx-icon-search-light,
+﻿:root {
+    --jqx-primary-rgb: 0, 92, 153;
+    --jqx-primary: rgb(var(--jqx-primary-rgb));
+    --jqx-primary-color: #fff;
+    --jqx-background: #fff;
+    --jqx-background-color: rgba(0, 0, 0, .88);
+    --jqx-background-hover-rgb: 225, 225, 225;
+    --jqx-background-hover: rgb(var(--jqx-background-hover-rgb));
+    --jqx-background-color-hover: rgba(0, 0, 0, .54);
+    --jqx-surface-rgb: 255, 255, 255;
+    --jqx-surface: rgb(var(--jqx-surface-rgb));
+    --jqx-surface-color: rgba(0, 0, 0, .88);
+    --jqx-border: #E0E0E0;
+    --jqx-scrollbar-background: #f5f5f5;
+    --jqx-scrollbar-border: #ddd;
+    --jqx-scrollbar-thumb-background: #C1C1C1;
+    --jqx-scrollbar-thumb-border: #b3b3b3;
+    --jqx-scrollbar-thumb-background-hover: #e6e6e6;
+    --jqx-scrollbar-thumb-border-hover: #b3b3b3;
+    --jqx-scrollbar-thumb-background-pressed: #d9d9d9;
+    --jqx-scrollbar-thumb-border-pressed: #b3b3b3;
+    --jqx-scrollbar-button-color-hover: #333;
+    --jqx-scrollbar-button-background-hover: #f5f5f5;
+    --jqx-scrollbar-button-border-hover: #f5f5f5;
+    --jqx-scrollbar-button-color-pressed: #333;
+    --jqx-scrollbar-button-background-pressed: #f5f5f5;
+    --jqx-scrollbar-button-border-pressed: #f5f5f5;
+}
+
+.jqx-icon-search-light,
 .jqx-icon-close-light {
     background-image: none;
     font-family: jqx-icons;
@@ -10,6 +39,7 @@
 
 .jqx-icon-search-light:after {
     content: var(--jqx-icon-search);
+    color: red;
 }
 
 .jqx-calendar-light {
